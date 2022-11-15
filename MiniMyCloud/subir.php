@@ -76,7 +76,7 @@ if ($_POST) {
         <nav>
             <div>MiniMyCloud</div>
             <div><a href="index.php?lang=<?= $lang ?>"><?= getString("inicio") ?></a></div>
-            <div><a href="subir.php?lang=<?= $lang ?>"><?= getString("subir") ?></a></div>
+            <div><strong><?= getString("subir") ?></strong></div>
             <div><a href="cloud.php?lang=<?= $lang ?>"><?= getString("ficheros") ?></a></div>
         </nav>
         <div id="lang">
