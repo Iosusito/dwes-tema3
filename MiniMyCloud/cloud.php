@@ -39,7 +39,7 @@ if ($todosFicheros !== false) {
             <div>MiniMyCloud</div>
             <div><a href="index.php?lang=<?= $lang ?>"><?= getString("inicio") ?></a></div>
             <div><a href="subir.php?lang=<?= $lang ?>"><?= getString("subir") ?></a></div>
-            <div><a href="cloud.php?lang=<?= $lang ?>"><?= getString("ficheros") ?></a></div>
+            <div><strong><?= getString("ficheros") ?></strong></div>
         </nav>
         <div id="lang">
             <form action="#" method="GET">
